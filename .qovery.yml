@@ -1,0 +1,15 @@
+---
+application:
+  name: "backend"
+  project: "first-project"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "test_qovery"
+  version: "5.7"
+routers:
+- name: "main-backend"
+  routes:
+  - application_name: "backend"
+    paths:
+    - "/"
